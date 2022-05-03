@@ -49,7 +49,41 @@
 
 
 
-
+	<div class="row justify-content-center">
+		<div class="col-md-6">
+			<span class="anchor" id="formContact"></span>
+			<div class="card card-outline-secondary">
+				<div class="card-header">
+					<h3 class="mb-0">Subir Imagen</h3>
+				</div>
+				<div class="card-body">
+					<form id="form" action="proceso_guardarImagen.php" method="POST" enctype="multipart/form-data" autocomplete="off" class="form" role="form">
+						<fieldset>
+							<label class="mb-0" for="name2">Nombre</label>
+							<div class="row mb-1">
+								<div class="col-lg-12">
+									<input class="form-control" id="nombre" name="nombre" required="" type="text">
+								</div>
+							</div>
+							<label class="mb-0" for="email2">Descripción</label>
+							<div class="row mb-1">
+								<div class="col-lg-12">
+									<input class="form-control" id="descripcion" name="descripcion" required="" type="text">
+								</div>
+							</div>
+							<label class="mb-0" for="message2">Imagen</label>
+							<div class="row mb-1">
+								<div class="col-lg-12">
+								<input type="file" class="form-control-file" id="imagen" name="imagen">
+								</div>
+							</div>
+							<button id="btn" class="btn btn-primary btn-lg float-right" type="submit" value="Aceptar">Aceptar</button>
+						</fieldset>
+					</form>
+				</div>
+			</div><!-- /form contact -->
+		</div>
+	</div>
 
 
 
