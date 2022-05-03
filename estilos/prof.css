@@ -1,0 +1,62 @@
+/* --- CLASES de la vista HOME --- */
+.ex2 img {width:150px; border:2x solid #eee; margin:10px 0; -webkit-transition:all 0.5s ease;
+	-moz-transition:all 1s ease; -o-transition:all 1s ease;}
+.ex2 img:hover {width:200px; margin-top:-10px;}
+
+
+/* --- BotonAtras --- */
+  .BotonEstilo1{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    /* border-radius: 6px; */
+    /* border: 2px solid #0016b0; */
+  }
+  .BotonEstilo1:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+
+
+
+ /* --- Slider --- */
+.slider {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 95%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
