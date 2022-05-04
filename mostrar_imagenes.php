@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
 	<title>Mostrar Imagenes</title>
-	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
-	<link rel="stylesheet" type="text/css" href="estilos/prof.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -13,25 +14,18 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 </head>
 <style>
-	footer {
-		width: 100%;
-		height: 75px;
-		background-color: #000;
-		color: gold;
-		text-align: center;
-		line-height: 75px;
-		font-size: 1.3em;
-		position: fixed;
-		bottom: 0;
-	}
+
 	body{
 		background-image: url("vistas/Imagenes/fondo/fondo.jpg");
+	}
+	.container{
+		margin-top: 10%;
 	}
 </style>
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-success">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -114,12 +108,8 @@
 
 
 
-<!-- 
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-
-	<h2 align="center"><a href="vistas/Home.php" class="BotonEstilo1">Volver a la Web</a></h2> -->
-	<?php include('vistas/Includes/pie_pagina.php'); ?>
+	<!-- <?php include('vistas/Includes/pie_pagina.php'); ?> -->
 </body>
 
 </html>

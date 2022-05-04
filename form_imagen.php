@@ -8,14 +8,12 @@
 	<title>Subir Imagen</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="estilos/prof.css">
-
 </head>
 <style>
-	footer {
-		position: fixed;
-		bottom: 0;
+	.container{
+		margin-top: 10%;
 	}
+
 </style>
 
 <body style="background-image: url('vistas/Imagenes/fondo/fondo.jpg')">
@@ -46,21 +44,22 @@
 			</ul>
 		</div>
 	</nav>
+	<br>
 
 
-
-	<div class="row justify-content-center">
-		<div class="col-md-6">
+<div class="container">
+	<div class="row justify-content-center ">
+		<div class="col-md-6 ">
 			<span class="anchor" id="formContact"></span>
-			<div class="card card-outline-secondary">
+			<div class="card card-outline-secondary bg-dark text-white ">
 				<div class="card-header">
 					<h3 class="mb-0">Subir Imagen</h3>
 				</div>
-				<div class="card-body">
+				<div class="card-body ">
 					<form id="form" action="proceso_guardarImagen.php" method="POST" enctype="multipart/form-data" autocomplete="off" class="form" role="form">
 						<fieldset>
 							<label class="mb-0" for="name2">Nombre</label>
-							<div class="row mb-1">
+							<div class="row mb-1 ">
 								<div class="col-lg-12">
 									<input class="form-control" id="nombre" name="nombre" required="" type="text">
 								</div>
@@ -81,9 +80,10 @@
 						</fieldset>
 					</form>
 				</div>
-			</div><!-- /form contact -->
+			</div>
 		</div>
 	</div>
+</div>
 
 
 
@@ -104,7 +104,7 @@
 	</div> -->
 
 
-	<?php include('vistas/includes/pie_pagina.php'); ?>
+	<!-- <?php include('vistas/includes/pie_pagina.php'); ?> -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
